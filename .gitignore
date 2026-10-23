@@ -1,0 +1,43 @@
+# secrets & database
+.env
+!.env.example
+data/
+*.db
+*.db-wal
+*.db-shm
+.secret
+
+# logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# node (none needed but just in case)
+node_modules/
+
+# Local signing, private credentials, databases and generated tool caches.
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.db-journal
+*.keystore
+*.jks
+*.pem
+*.key
+*.p12
+*.pfx
+*.p8
+*.pvk
+id_rsa
+id_ed25519
+key.properties
+local.properties
+.dart_tool/
+.gradle/
+__pycache__/
+*.pyc

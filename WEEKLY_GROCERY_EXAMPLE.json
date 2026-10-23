@@ -1,0 +1,64 @@
+{
+  "weekStart": "2026-10-17",
+  "weekEnd": "2026-10-23",
+  "days": 7,
+  "source": "Local seven-day engine-shaped fixture, not a live user account",
+  "items": [
+    {
+      "name": "بيض",
+      "quantity": 14,
+      "unit": "بيضة",
+      "days": 7
+    },
+    {
+      "name": "صدر فراخ",
+      "quantity": 800,
+      "unit": "g",
+      "days": 4
+    },
+    {
+      "name": "جبنة بيضاء",
+      "quantity": 600,
+      "unit": "g",
+      "days": 6
+    },
+    {
+      "name": "مكرونة",
+      "quantity": 560,
+      "unit": "g",
+      "days": 7
+    },
+    {
+      "name": "بامية",
+      "quantity": 700,
+      "unit": "g",
+      "days": 7
+    },
+    {
+      "name": "بطاطا",
+      "quantity": 450,
+      "unit": "g",
+      "days": 3
+    },
+    {
+      "name": "بطاطس",
+      "quantity": 1050,
+      "unit": "g",
+      "days": 7
+    },
+    {
+      "name": "خيار",
+      "quantity": 600,
+      "unit": "g",
+      "days": 7
+    },
+    {
+      "name": "طماطم",
+      "quantity": 500,
+      "unit": "g",
+      "days": 7
+    }
+  ],
+  "coffeeExcluded": true,
+  "unresolved": 0
+}

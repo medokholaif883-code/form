@@ -1,0 +1,41 @@
+{
+  "name": "elforma",
+  "version": "1.0.38",
+  "description": "ElForma - AI training & nutrition platform (full-stack)",
+  "type": "commonjs",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.11.0 <23"
+  },
+  "scripts": {
+    "start": "node --experimental-sqlite server.js",
+    "test": "node --experimental-sqlite test/api.test.js",
+    "test:contracts": "node --experimental-sqlite test/engine-contract.test.js",
+    "test:mobile-nutrition": "node --experimental-sqlite test/mobile-nutrition.test.js",
+    "test:mobile-workout": "node --experimental-sqlite test/mobile-workout.test.js",
+    "test:mobile-progress": "node --experimental-sqlite test/mobile-progress.test.js",
+    "test:mobile-privacy": "node --experimental-sqlite test/mobile-privacy.test.js",
+    "test:mobile-adaptive": "node --experimental-sqlite test/mobile-adaptive.test.js",
+    "test:parity": "node --experimental-sqlite test/parity.test.js",
+    "test:push": "node --experimental-sqlite test/push-devices.test.js",
+    "test:engine-isolation": "node --experimental-sqlite test/engine-isolation.test.js",
+    "test:workout-gate": "node --experimental-sqlite test/workout-gate.test.js",
+    "test:security": "node --experimental-sqlite test/security.test.js",
+    "test:release-hygiene": "node --experimental-sqlite test/release-hygiene.test.js",
+    "test:translation-contract": "node --experimental-sqlite test/translation-contract.test.js",
+    "test:health-adjustments": "node --experimental-sqlite test/health-adjustments.test.js",
+    "test:edge-cases": "node --experimental-sqlite test/edge-cases.test.js",
+    "test:ci-config": "node --experimental-sqlite test/ci-config.test.js",
+    "test:all": "node --experimental-sqlite scripts/run-all-tests.js",
+    "admin:verify": "node --experimental-sqlite scripts/verify-admin.js",
+    "release": "bash scripts/make-release.sh",
+    "test:community": "node --experimental-sqlite test/community.test.js && node --experimental-sqlite test/community-api.test.js && node --experimental-sqlite test/admin-community.test.js",
+    "test:friend-challenges": "node --experimental-sqlite test/friend-challenges.test.js && node --experimental-sqlite test/friend-challenges-api.test.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ioredis": "^5.3.2",
+    "javascript-lp-solver": "1.0.3",
+    "libsql": "0.5.29"
+  }
+}
